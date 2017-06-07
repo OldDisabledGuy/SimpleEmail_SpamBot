@@ -1,6 +1,7 @@
 # SimpleEmailSpamBot
 # DizAzTor
-# Version: 0.2
+# Version: 0.3
+
 
 import smtplib
 import getpass
@@ -9,14 +10,27 @@ import time
 email_number = 0
 email_delay = 0
 
-print "\nLog in with your gmail account. Make sure to enable \"less secure apps\""
-print "\nGoogle it if you don't know what it is."
+print "\nLog in with your GMAIL account."
+print "\nMake sure to enable \"less secure apps\""
+print "\nTurn it on: https://myaccount.google.com/lesssecureapps"
+print "\nNo need to add \"@gmail.com\", just type in your username."
 gmail_account = raw_input("\n>>>: ")
+
+if "@gmail.com" in gmail_account:
+    pass
+else:
+    gmail_account = gmail_account + "@gmail.com"
 
 print "\nNow type in your password."
 gmail_password = getpass.getpass("\n>>>: ")
 
-print "\nWho do you want to spam this message to?"
+print "\nLook, since i'm using Google SMTP..."
+print "\n...you're \"only\" allowed to send 2,000 emails a day per GMAIL account."
+print "\nI'll later give you the option to even add more GMAL accounts."
+print "\nUse them when an account dies. KEEP SPAMMING!"
+print "\n... maybe."
+
+print "\nBut for now, just type in your target's email address."
 spam_to = raw_input("\n>>>: ")
 
 print "\nType in your subject."
@@ -25,8 +39,10 @@ spam_subject = raw_input("\n>>>: ")
 print "\nFinally, uh, type in your message."
 spam_message = raw_input("\n>>>: ")
 
+
 print "\nALWAYS REMEMBER TO HIT CTRL-C TO STOP THE SPAM."
-print "\nIt is really recommended to have a delay between every email. Otherwise the script will stop running at the 85th email or something."
+print "\nIt is really recommended to have a delay between every email."
+print "\nOtherwise the script will stop running at the 85th email or something."
 print "\nGoogle will start realizing it's a spam."
 print "\nWant to set a delay?"
 
@@ -77,5 +93,5 @@ server.login(username, password)
 while True:
     server.sendmail(fromaddr, toaddrs, msg)
     email_number += 1
-    print "\nMail sent. Mail number: %d" % email_number
+    print "\nMAIL SENT. #%d" % email_number
     time.sleep(email_delay)
