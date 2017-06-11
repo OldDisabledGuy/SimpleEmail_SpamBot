@@ -1,6 +1,15 @@
 # SimpleEmail_SpamBot
 Just a simple email spam bot written in Python when i was really bored. The respositroy name says it all.
 
+```normal.py``` = ```v0.3.4```
+```advanced.py``` = ```v0.1```
+
+### What's the difference between ```advanced.py``` and ```normal.py```?
+* ```advanced.py``` is supposed to be used quickly. Simply type in your email, password, target's email, set a delay (default is **```0```**) and done!
+* ```normal.py``` is pretty much the same as ```advanced.py``` **at the moment** but it's more pain in the ass,```v0.4``` is gonna channge a lot of stuff and have some new features.
+* ```advanced.py``` won't have any updates (maybe). I don't want to mess it up!
+* ##### TL;DR: **use** ```advanced.py```
+
 
 
 ### Make sure to do these things before running the script.

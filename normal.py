@@ -1,11 +1,15 @@
 # SimpleEmailSpamBot
 # DizAzTor
 # Version: 0.3
+# Version 4 will have some cool new stuff.
 
+try:
+    import smtplib
+    import getpass
+    import time
 
-import smtplib
-import getpass
-import time
+except ImportError, err:
+    print "Ah, %s." % err
 
 email_number = 0
 email_delay = 0
@@ -17,6 +21,7 @@ print "\nNo need to add \"@gmail.com\", just type in your username."
 gmail_account = raw_input("\n>>>: ")
 
 if "@gmail.com" in gmail_account:
+    # No need to do anything here.
     pass
 else:
     gmail_account = gmail_account + "@gmail.com"
@@ -73,7 +78,6 @@ while just_a_loop:
 
 print "\nI will start spamming now. "
 
-import smtplib
 fromaddr = '%s' % gmail_account
 toaddrs = '%s' % spam_to
 msg = "\r\n".join([
