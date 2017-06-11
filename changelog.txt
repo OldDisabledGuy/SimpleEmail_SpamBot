@@ -1,7 +1,18 @@
-# v0.2:
+# SESB normal.py v0.1:
+* SimpleEmail_SpamBot
+
+# SESB normal.py v0.2:
 * Added delay feature.
 
 
-# v0.3:
+# SESB normal.py v0.3:
 * No need to add "@gmail.com", just type in your username.
 * Changed more stuff.
+
+# SESB normal.py v0.3.4:
+* Changed some stuff
+
+# SESB advanced.py 0.1
+* advanced.py is supposed to be used quickly. Simply type in your email, password, target's email, set a delay (default is 0) and done!
+* normal.py is pretty much the same as advanced.py at the moment but it's more pain in the ass,v0.4 is gonna channge a lot of stuff and have some new features.
+* advanced.py won't have any updates (maybe). I don't want to mess it up!
