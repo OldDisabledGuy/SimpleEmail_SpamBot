@@ -5,7 +5,7 @@ Just a simple email spam bot written in Python when i was really bored. The resp
 ```quick_bot.py``` = ```v0.1```
 
 ### What's the difference between ```SESB.py``` and ```quick_bot.py```?
-* ```advanced.py``` is supposed to be used quickly. Simply type in your email, password, target's email, set a delay (default is **```0```**) and done!
+* ```SESB.py``` is supposed to be used quickly. Simply type in your email, password, target's email, set a delay (default is **```0```**) and done!
 * ```quick_bot.py``` won't have any updates (maybe). I don't want to mess it up!
 
 ### Make sure to do these things before running the script:
