@@ -2,22 +2,23 @@ try:
     import smtplib
     import time
     import getpass
+    import sys
+    from sys import exit
+    import os
+
 except ImportError, err:
     print "Ah, %s." % err
-else:
-    import smtplib
-    import time
-    import getpass
-    
+
 email_number = 0
 email_delay = 0
 
-class Setup(object):
+
+class Email(object):
 
     def __init__(self):
-        
-       pass
-        
+
+        pass
+
     gmail_account = raw_input("\nYour gmail: ")
 
     if "@gmail.com" in gmail_account:
@@ -25,7 +26,6 @@ class Setup(object):
     else:
         gmail_account += "@gmail.com"
 
-    
     gmail_password = getpass.getpass("\nYour password: ")
 
     spam_to = raw_input("\nTarget's email: ")
@@ -37,7 +37,7 @@ class Setup(object):
     what_lol = True
 
     while what_lol:
-        
+
         spam_delay = raw_input("\nDelay between every mail: ")
 
         try:
@@ -49,13 +49,13 @@ class Setup(object):
 
         else:
             email_delay = int(spam_delay)
-            what_lol = False # rip dank memes
+            what_lol = False  # rip dank memes
             break
 
 
 class Spam(Setup):
     setup = Setup()
-    
+
     fromaddr = "%s" % setup.gmail_account
     toaddrs = "%s" % setup.spam_to
     msg = "\r\n".join([
@@ -64,10 +64,8 @@ class Spam(Setup):
         "Subject: %s",
         "",
         "%s"
-        ]) % (setup.gmail_account, setup.spam_to, setup.spam_subject, setup.spam_message)
-    
-    
-    
+    ]) % (setup.gmail_account, setup.spam_to, setup.spam_subject, setup.spam_message)
+
     username = "%s" % setup.gmail_account
     password = "%s" % setup.gmail_password
     server = smtplib.SMTP('smtp.gmail.com:587')
@@ -81,5 +79,3 @@ class Spam(Setup):
         print "\nMAIL SENT. #%d" % email_number
         print setup.email_delay
         time.sleep(setup.email_delay)
-    
-    
