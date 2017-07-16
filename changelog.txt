@@ -32,12 +32,15 @@
 ---------------------------------------------------------------------------------
 
 
-# quick_bot.py v0.1
+# quick_SESB.py v0.1
 * advanced.py is supposed to be used quickly. Simply type in your email, password, target's email, set a delay (default is 0) and done!
-* advanced.py is pretty much the same as quick_bot.py at the moment but it's more pain in the ass, v0.4 is gonna channge a lot of stuff and have some new features.
-* quick_bot.py won't have any updates (maybe). I don't want to mess it up!
+* advanced.py is pretty much the same as quick_SESB.py at the moment but it's more pain in the ass, v0.4 is gonna channge a lot of stuff and have some new features.
 
-# quick_bot.py v0.2 MIGHT HAVE:
-* Support for Outlook and iCloud.
-* Multiple targets
+# quick_SESB.py v0.2:
+* Added support for Outlook and iCloud.
+* Added settings.cfg # This, now, makes it *quick*_SESB.py :)
+* Support for multiple targets.
+
+# quick_SESB.py v0.3 MIGHT HAVE:
+* N/A
 
