@@ -2,19 +2,17 @@
 * SimpleEmail_SpamBot
 
 # SESB.py v0.2 BETA:
-* Added delay feature.
-
+* Added the delay feature.
 
 # SESB.py v0.3 BETA:
-* No need to add "@gmail.com", just type in your username.
+* just type in your username.
 * Changed more stuff.
 
 # SESB.py v0.3.4 BETA:
 * Changed some stuff
 
-# SESB.py v0.4 BETA: (Main reason for this release was: "make the code maintainable.")
+# SESB.py v0.4 BETA:
 = New features should be easily added.
-* 'normal.py' is now 'advanced.py'
 * Completely rewritten.
 - Still in BETA.
 * Added support for iCloud.
@@ -22,25 +20,24 @@
 * Added support to spam more than one target at the exact time.
 * Added a command-line version. To run it, use "python SESB.py -c"d (Still in beta)
 
-# SESB.py v1.0.0 WILL BE/HAVE:
-* stable
-* support for multiple accounts. Yes.
-* emails.txt, passwords.txt and targets.txt. The script will automatically find these files to avoid the hassle of typing everything again when restarting the script, you can configure the script, though. Anyways, if it couldn't find any files it would ask you to add them.
-* maybe even more stuff.
+# SESB.py v0.4 BETA: (2)
+* It's useless now. Moved to "OLD CODE"
+
+# SESB.py v0.5:
+* more exception handling.
+* stuff
 
 
 ---------------------------------------------------------------------------------
 
 
 # quick_SESB.py v0.1
-* advanced.py is supposed to be used quickly. Simply type in your email, password, target's email, set a delay (default is 0) and done!
-* advanced.py is pretty much the same as quick_SESB.py at the moment but it's more pain in the ass, v0.4 is gonna channge a lot of stuff and have some new features.
+* quick_SESB.py is supposed to be used quickly
 
 # quick_SESB.py v0.2:
 * Added support for Outlook and iCloud.
 * Added settings.cfg # This, now, makes it *quick*_SESB.py :)
 * Support for multiple targets.
 
-# quick_SESB.py v0.3 MIGHT HAVE:
-* N/A
-
+# quick_SESB.py:
+* It's useless now. Moved to "OLD CODE"

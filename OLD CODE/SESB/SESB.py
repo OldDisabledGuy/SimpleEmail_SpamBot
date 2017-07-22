@@ -351,7 +351,7 @@ class Outlook(object):
 
 
 class Email(object):
-
+        
 	def __init__(self):
 		pass
 
@@ -726,6 +726,10 @@ class Commands(object):
 			else:
 				print "\nNo email added."
 				self.command_line()
+
+                elif command == "send email":
+                        print "\nSending a normal email to targets."
+                        pass
 
 		else:
 			print "\nCommand not found. Try \"commands\" to see what you can do."

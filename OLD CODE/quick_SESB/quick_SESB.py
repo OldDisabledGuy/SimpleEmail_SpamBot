@@ -285,7 +285,7 @@ try:
             account = config.get("email", "account")
             password = config.get("email", "password")
 
-            delay = config.get("spam_mail_info", "delay")
+            spam_delay = config.get("spam_mail_info", "delay")
 
             spam_subject = config.get("spam_mail_info", "spam_subject")
             spam_message = config.get("spam_mail_info", "spam_message")
