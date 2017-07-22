@@ -1,6 +1,4 @@
-# 0.2, Rewritten
-# Notes while programming:
-# 1. This thing is gonna be cool
+# 0.3, Rewritten
 
 """SimpleEmail_SpamBot or SESB is a script that lets you spam people using Gmail, Outlook or/and iCloud"""
 
