@@ -1,12 +1,10 @@
 # SimpleEmail_SpamBot
-Just a simple email spam bot written in Python when i was really bored. The respositroy name says it all.
+Just a simple email spam bot written in Python. The respositroy name says it all.
 
-```SESB.py``` = ```v0.4```
-```quick_bot.py``` = ```v0.1```
+```SESB.py``` = ```v0.5.5```
 
 ### What's the difference between ```SESB.py``` and ```quick_bot.py```?
-* ```SESB.py``` is supposed to be used quickly. Simply type in your email, password, target's email, set a delay (default is **```0```**) and done!
-* ```quick_bot.py``` won't have any updates (maybe). I don't want to mess it up!
+* N/A
 
 ### Make sure to do these things before running the script:
 #### GMAIL
@@ -18,37 +16,25 @@ Just a simple email spam bot written in Python when i was really bored. The resp
 #### iCloud
 * Read https://support.apple.com/en-us/HT204397
 
+#### This only works with Python 2.x
 #### DOWNLOAD AS .ZIP
 
 #### Windows:
 0. Go to where you downloaded the zip file and unzip it.
-10. Go to "SimpleEmail_SpamBot"
-11. Open a terminal in that location.
-100. Type ```C:\Python27\python SESB.py``` in the terminal and press ENTER.
-101. Done!
+1. Go to "SimpleEmail_SpamBot"
+2. Configure ```config.cfg```.
+3. Open a terminal in that location.
+4. Type ```C:\Python27\python.exe SESB0.5.py``` in the terminal and press ENTER.
 
-#### On Kali Linux, ```python``` gives you Python 2.7
-#### Some Linux distros give you Python 3. So you have to see for yourself.
-#### I use Arch Linux, by the way.
 
-##### To try:
-1. ```python```
-2. ```python2.7```
-3. ```python2```
+#### You can add ```alias python=python2``` and ```alias python3=python3``` to your ```.bashrc``` file.
 
-#### Linux
+#### Linux / MacOS
 0. ```cd ~/Downloads```
-10. ```unzip SimpleEmail_SpamBot-master.zip```
-11. ```cd SimpleEmail_SpamBot-master/```
-100. ``python SESB.py```
-101. Done.
-
-#### MacOS.
-0. ```cd ~/Downloads```
-10. ```unzip SimpleEmail_SpamBot-master.zip```
-11. ```cd SimpleEmail_SpamBot-master/```
-100. ```python SESB.py```
-101. Done.
+1. ```unzip SimpleEmail_SpamBot-master.zip```
+2. ```cd SimpleEmail_SpamBot-master/NEW CODE/```
+3. Configure ```config.cfg```.
+4. ``python SESB0.5.py```
 
 
 #### TO USE COMMAND MODE:

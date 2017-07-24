@@ -1,5 +1,4 @@
-__version__ = "0.5"
-__maintainer = "DizAzTor"
+__version__ = "0.4" # ENGINE
 
 try:
     import time

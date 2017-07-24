@@ -1,13 +1,9 @@
-# 0.3, Rewritten
 
 """SimpleEmail_SpamBot or SESB is a script that lets you spam people using Gmail, Outlook or/and iCloud"""
 
 __author__ = "DizAzTor"
-__copyright__ = "Copyright 2017, SimpleEmail_SpamBot, DizAzTor"
-
-__license__ = "CC"
+__license__ = "MIT"
 __version__ = "0.2"
-__maintainer__ = "DizAzTor"
 
 try:
     import smtplib

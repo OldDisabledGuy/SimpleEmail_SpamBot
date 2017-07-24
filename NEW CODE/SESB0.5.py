@@ -1,5 +1,4 @@
 __version__ = "0.5"
-__maintainer__ = "DizAzTor"
 
 from engine import *
 import sys
