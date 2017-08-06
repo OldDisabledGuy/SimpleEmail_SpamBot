@@ -12,6 +12,7 @@ Just a simple email spam bot written in Python. The respositroy name says it all
 0. [**Download compiled .exe files**](https://github.com/DizAzTor/SimpleEmail_SpamBot/releases/tag/v0.7)
 
 _Or you can run the script through Python_:
+
 0. Go to where you downloaded the zip file and unzip it.
 1. Go to "SimpleEmail_SpamBot"
 2. Open "SESB"~~
