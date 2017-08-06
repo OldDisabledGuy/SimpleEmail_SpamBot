@@ -1,0 +1,87 @@
+# SESB.py v0.1 BETA:
+* SimpleEmail_SpamBot
+
+# SESB.py v0.2 BETA:
+* Added the delay feature.
+
+# SESB.py v0.3 BETA:
+* just type in your username.
+* Changed more stuff.
+
+# SESB.py v0.3.4 BETA:
+* Changed some stuff
+
+# SESB.py v0.4 BETA:
+= New features should be easily added.
+* Completely rewritten.
+- Still in BETA.
+* Added support for iCloud.
+* Added support for Outlook.
+* Added support to spam more than one target at the exact time.
+* Added a command-line version. To run it, use "python SESB.py -c"d (Still in beta)
+
+# SESB.py v0.4 BETA: (2)
+* It's useless now. Moved to "OLD CODE"
+
+# SESB.py v0.5:
+* more exception handling.
+* stuff
+
+# SESB.py v0.5.5:
+[removed]
+
+# SESB.py v0.6:
+* All in one.
+* More exception handling.
+* Command Mode 0.2. :)
+    * import = import settings from config.cfg.
+    * about = about.
+    * try2login = check if your email or password is working.
+    * send email = send a normal email to all of your targets..
+    + you can now use Command Mode without having to rerun it every time you want to spam again. Meaning: "KeyboardInterrupt" won't cause the script to stop running anymore.
+
+# SESB.py v0.7:
+[R = REPLACED]
+* Support for Yahoo! Mail. (haven't tested it yet)
+* Support for Zoho Mail. (haven't tested it yet)
+* Support for GMX. (haven't tested it yet)
+* Support for Fastmail. (haven't tested it yet)
+- Please use GMail to spam.
+* Command Mode 0.3
+    + more expection handling
+    + Colored commands in "commands"
+    + Added lots of new commands.
+    *. del account = Remove your account.
+    *. del password = Remove your password.
+    *. del passacc = Remove your account and your password.
+    *. del subject = Remove the subject.
+    *. del message = Remove the message.
+    *. del submsg = Remove the subject and the message.
+    *. add target x = Automatically add x amount of targets.
+    *. del target x = Delete a specific target.
+    *. del target all = You never guessed it, this command deletes all of the targets.
+    +. "print targets" now gives you numbers for the targets. (example: del target 1 = delete target number 1)
+    *. manual = same as "-m".
+    *. print target x = Print a specific target.
+    *. checkver = Check this script's version.
+    *. latestver = Check the latest version.
+    R. set delay {TO} set delay x = same thing, except you can do it now directly.
+    R. exit / quit / CTRL+D {TO} CTRL+D / exit / exit() / quit / quit() / :q / :q! = vim is life.
+    *. write = Write your current settings to config.cfg
+    *. day x = Convert days to seconds and automatically assign the value to "delay".
+    *. hour x = Convert hours to seconds and automatically assign the value to "delay".
+    *. minute x = Convert minutes to seconds and automatically assign the value to "delay".
+    *. reset all = Reset everything. Same as "-c"
+
+    -. Not sure if i added any more commands. I might have added some commands but didn't list them in "commands"
+---------------------------------------------------------------------------------
+
+
+# quick_SESB.py v0.1
+[deleted]
+
+# quick_SESB.py v0.2:
+[deleted]
+
+# quick_SESB.py:
+* It's useless now.
