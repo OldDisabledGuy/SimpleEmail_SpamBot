@@ -1323,10 +1323,9 @@ elif len(sys.argv) == 1 and sys.argv[0] == "SESB.py":
     x_import.start_spamming()
 
 else:
-    print(bcolors.OKGREEN + "Warning: No active frommets remain. Continue?" + bcolors.ENDC)
     print("\rUnknown.")
     print("\r-c / --command == command-mode")
     print("\r-m / --manual == manual-mode")
     print("\r-h / --help == get help")
     #print "\r-r == random. (will also be available in the command-mode)" (coming in 0.8)
-
+    
