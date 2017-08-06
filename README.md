@@ -1,6 +1,24 @@
 # SimpleEmail_SpamBot
 Just a simple email spam bot written in Python. The respositroy name says it all.
 
+### KNOWN ISSUES:
+1. whoops
+```python
+elif command == "set message":
+            try:
+                # yes.
+                spam_subject = raw_input("\nMESSAGE>>> ")
+
+            except KeyboardInterrupt:
+                print("\nStopped.")
+
+            except EOFError:
+                print("\nStopped.")
+
+            self.command_line()
+            
+```
+
 ```SESB.py``` = ```v0.7```
 [See what's new.](https://github.com/DizAzTor/SimpleEmail_SpamBot/blob/master/SESB/changelog.txt)
 
