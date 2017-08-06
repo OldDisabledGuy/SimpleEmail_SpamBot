@@ -2,6 +2,7 @@
 Just a simple email spam bot written in Python. The respositroy name says it all.
 
 ```SESB.py``` = ```v0.7```
+[See what's new.](https://github.com/DizAzTor/SimpleEmail_SpamBot/blob/master/SESB/changelog.txt)
 
 ### Make sure to do these things before running the script:
 #### GMAIL
