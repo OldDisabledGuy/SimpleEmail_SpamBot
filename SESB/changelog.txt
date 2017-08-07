@@ -42,6 +42,7 @@
 
 # SESB.py v0.7:
 [R = REPLACED]
+* Check for updates.
 * Support for Yahoo! Mail. (haven't tested it yet)
 * Support for Zoho Mail. (haven't tested it yet)
 * Support for GMX. (haven't tested it yet)
