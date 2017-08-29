@@ -18,6 +18,15 @@ elif command == "set message":
             self.command_line()
             
 ```
+2. uh yeah
+
+```python
+print("\nDELAY SET TO: %d" % spam_delay)
+TypeError: %d format: a number is required, not str
+```
+
+### What will happen to SESB?
+I do not know lel. I will add some new stuff later, just working on something else.
 
 ```SESB.py``` = ```v0.7```
 [See what's new.](https://github.com/DizAzTor/SimpleEmail_SpamBot/blob/master/SESB/changelog.txt)
